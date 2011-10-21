@@ -1,1 +1,17 @@
 This is a simple program to encrypt plain text file.
+
+How to use it:
+
+run 'gcc -o encrypt encrypt.c'
+If the FILE hasn't been encrypt, run './encrypt FILE', then 
+input a passwd . the FILE's content will be encrypted(changed)
+To decrypt, run './encrypt FILE' again and use the same 
+passwd which is used to encrypt the FILE, this will decrypt 
+the file.
+
+Warning!!!
+
+Before you run encrypt on some file, make clear whether the 
+file is plaintext or ciphertext.
+When you decrypt the file, MAKE SURE the passwd you input is
+the same with what you input when you last encryt the file.n
