@@ -14,4 +14,4 @@ Warning!!!
 Before you run encrypt on some file, make clear whether the 
 file is plaintext or ciphertext.
 When you decrypt the file, MAKE SURE the passwd you input is
-the same with what you input when you last encryt the file.n
+the same with what you input when you last encryt the file.
